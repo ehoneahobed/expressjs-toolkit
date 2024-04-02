@@ -1,12 +1,27 @@
 {
   "name": "expressjs-toolkit",
   "version": "1.0.0",
-  "description": "",
+  "description": "A CLI tool for scaffolding Express.js applications, allowing quick integration of essential backend functionalities like database connections, authentication, error handling, logging, and monitoring.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ehoneahobed/expressjs-toolkit.git"
+  },
+  "keywords": [
+    "expressjs",
+    "cli",
+    "scaffolding",
+    "toolkit",
+    "backend",
+    "mongoose",
+    "authentication",
+    "logging",
+    "error-handling"
+  ],
+  "author": "Dr. Ehoneah Obed <ehoneahobed@hotmail.com> (https://blog.ehoneahobed.com)",
   "license": "MIT",
   "dependencies": {
     "commander": "^12.0.0",
@@ -15,9 +30,7 @@
   "bin": {
     "expressjs-toolkit": "./bin/cli.js"
   },
-  "author": {
-    "name": "Dr. Ehoneah Obed",
-    "email": "ehoneahobed@hotmail.com",
-    "url": "https://blog.ehoneahobed.com"
+  "engines": {
+    "node": ">=12.0.0"
   }
 }
